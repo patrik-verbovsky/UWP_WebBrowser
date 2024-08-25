@@ -2,6 +2,7 @@
     x:Class="UWP_WebBrowser.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:UWP_WebBrowser">
+    xmlns:local="using:UWP_WebBrowser"
+    RequestedTheme="Light">
 
 </Application>

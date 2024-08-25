@@ -14,8 +14,8 @@
   <mp:PhoneIdentity PhoneProductId="2ea7428f-3222-46b6-a0dd-3627d11622b8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>UWP_WebBrowser</DisplayName>
-    <PublisherDisplayName>patri</PublisherDisplayName>
+    <DisplayName>UWP Web Browser</DisplayName>
+    <PublisherDisplayName>Patrik Verbovský</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

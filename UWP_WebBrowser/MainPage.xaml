@@ -6,8 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:Microsoft.UI.Xaml.Controls"
-    mc:Ignorable="d"
-    Background="{ThemeResource AppBarBorderThemeBrush}">
+    mc:Ignorable="d" Background="#F0F0F0">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -15,32 +14,35 @@
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <controls:WebView2 x:Name="WebView2" Source="https://google.com" Width="Auto" Height="Auto" Margin="0,42,0,0" NavigationCompleted="WebView2_NavigationCompleted"/>
-        <TextBox VerticalAlignment="Top" x:Name="ab" Margin="154,5,300,0" TextWrapping="Wrap" Height="32" PlaceholderText="Search a URL"/>
+        <TextBox VerticalAlignment="Top" x:Name="ab" Margin="154,5,370,0" TextWrapping="Wrap" Height="32" PlaceholderText="Search a URL"/>
         <Button Margin="6,5,0,0" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="Button_Click">
             <Button.Content>
-                <Image Source="/Icons/arrow-left-solid.png" Margin="-9,2,-8,1"></Image>
+                <Image Source="/Icons/arrow-left.png" Margin="-9,0,-8,-1"></Image>
             </Button.Content>
         </Button>
         <Button Margin="43,5,0,0" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="Button_Click_1">
             <Button.Content>
-                <Image Source="/Icons/arrow-right-solid.png" Margin="-9,2,-8,1"></Image>
+                <Image Source="/Icons/arrow-right.png" Margin="-9,0,-8,-1"></Image>
             </Button.Content>
         </Button>
         <Button Margin="80,5,0,0" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="Button_Click_3">
             <Button.Content>
-                <Image Source="/Icons/home-solid.png" Margin="-9,2,-8,1"></Image>
+                <Image Source="/Icons/home.png" Margin="-9,0,-8,-1"></Image>
             </Button.Content>
         </Button>
         <Button Margin="117,5,0,0" VerticalAlignment="Top" Width="32" Height="32" FontSize="12" Click="Button_Click_4">
             <Button.Content>
-                <Image Source="/Icons/redo-solid (1).png" Margin="-9,2,-8,1"></Image>
+                <Image Source="/Icons/refresh-ccw.png" Margin="-9,0,-8,-1"></Image>
             </Button.Content>
         </Button>
         <Button Margin="0,5,6,0" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="32" FontSize="12" Click="Button_Click_2">
             <Button.Content>
-                <Image Source="/Icons/search-solid.png" Margin=" -9,2,-8,1"></Image>
+                <Image Source="/Icons/search.png" Margin="-9,-0,-8,-1"></Image>
             </Button.Content>
         </Button>
-        <TextBox VerticalAlignment="Top" x:Name="gab" Margin="0,5,43,0" TextWrapping="Wrap" Height="32" HorizontalAlignment="Right" PlaceholderText="Search with Google" KeyDown="gab_KeyDown" Width="252"/>
+        <TextBox VerticalAlignment="Top" x:Name="gab" Margin="0,5,80,0" TextWrapping="Wrap" Height="32" HorizontalAlignment="Right" PlaceholderText="Search with Google" KeyDown="gab_KeyDown" Width="285"/>
+        <Button Margin="0,5,43,0" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="32" FontSize="12" Click="Button_Click_2">
+            <Image Source="/Icons/bookmark.png" Margin="-9,-0,-8,-1"/>
+        </Button>
     </Grid>
 </Page>
